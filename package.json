@@ -1,0 +1,26 @@
+{
+	"name": "topxpokemon",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": "index.js",
+	"dependencies": {
+		"fs": "0.0.1-security",
+		"pokemon.js": "^1.1.8"
+	},
+	"devDependencies": {
+		"eslint": "^8.9.0",
+		"eslint-config-prettier": "^8.4.0",
+		"eslint-config-xo": "^0.40.0",
+		"prettier": "^2.5.1"
+	},
+	"scripts": {
+		"format:check": "prettier --check ./",
+		"format:write": "prettier --write ./",
+		"lint:warn": "eslint ./",
+		"lint:check": "eslint --quiet ./",
+		"lint:fix": "eslint --fix ./"
+	},
+	"author": "Francisco Marí",
+	"license": "ISC"
+}
